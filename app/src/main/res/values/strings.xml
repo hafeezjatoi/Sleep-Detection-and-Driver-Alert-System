@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Drive Safe</string>
+    <string name="configurations">Configurations</string>
+    <string name="consider_right_eye">Consider Right Eye</string>
+    <string name="closing_senstivity_50">Closing Senstivity (50%)</string>
+    <string name="consider_left_eye">Consider Left Eye</string>
+    <string name="number_of_alerts">Number of Alerts</string>
+    <string name="alert_to_send">Alert to Send</string>
+    <string name="your_text_is_here">Your Text is here</string>
+    <string name="vehical_reg_number">Vehical Reg. Number</string>
+    <string name="e_g_0800_087_86">e.g: 0800-087-86</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="e_g_923123456789">E.g +923123456789</string>
+    <string name="drowsiness_duration">Drowsiness Duration</string>
+    <string name="e_g_3">e.g: 3</string>
+    <string name="configure_application">Configure Application</string>
+    <string name="start_monitoring">Start Monitoring</string>
+    <string name="save_settings">Save Settings</string>
+    <string name="e_g_9203123456789">e.g: +9203123456789</string>
+    <string name="save">SAVE</string>
+    <string name="types_of_alerts">Types of Alerts</string>
+    <string name="stop_alert">Stop Alert</string>
+    <string name="low_power_battery_alert">Low Power(Battery) Alert</string>
+    <string name="switch_on_alerts">Switch on Alerts</string>
+    <string name="person_not_found_alert">Person not Found Alert</string>
+    <string name="application_close_alert">Application Close Alert</string>
+    <string name="sleep_alert">Sleep Alert</string>
+    <string name="_923053117750">+923053117750</string>
+    <string name="configure_numbers">Configure Numbers</string>
+    <string name="drowsyness_duration_700">Drowsyness Duration(700)</string>
+</resources>

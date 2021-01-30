@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.Types_of_Alert">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/types_of_alerts"
+        android:textSize="32sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="100dp"
+        android:textColor="#000000"
+
+       />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layoutDirection="ltr"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="30dp"
+        android:text="@string/sleep_alert"
+        android:checked="true"
+        android:textColor="#000000"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layoutDirection="ltr"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="30dp"
+        android:textColor="#000000"
+        android:text="@string/stop_alert"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layoutDirection="ltr"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="30dp"
+        android:textColor="#000000"
+        android:text="@string/application_close_alert"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layoutDirection="ltr"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="30dp"
+        android:textColor="#000000"
+        android:text="@string/low_power_battery_alert"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layoutDirection="ltr"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="30dp"
+        android:textColor="#000000"
+        android:text="@string/switch_on_alerts"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="380dp"
+        android:layoutDirection="ltr"
+        android:text="@string/person_not_found_alert"
+        android:textColor="#000000" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_save_type_of_alerts"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="44dp"
+        android:background="@drawable/round_btn_green"
+        android:text="Save"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_cancel_type_of_alerts"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/round_btn_red"
+
+        android:text="Cancel" />
+</RelativeLayout>
